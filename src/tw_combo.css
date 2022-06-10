@@ -1,0 +1,85 @@
+
+.article_hide {
+    display:none;
+}
+
+.tw_combo {
+    background-color: white;
+    height: 25px;
+    width: 250px;
+    padding-left: 10px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+    font-style: normal;
+    border: 1px solid #131342;
+    position: relative;
+    display: block;
+}
+
+.tw_combo_label_div {
+    cursor: pointer;
+    position: relative;
+    left: -11px;
+    top: -6px;
+}
+
+.tw_combo_label_span {
+    text-align: left;
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 220px;
+    padding-left: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.tw_combo_label_img {
+    position: relative;
+    top: 8px;
+    right: -7px;
+    float: right;
+    background-color: transparent;
+}
+
+.tw_combo_div {
+    width: 260px;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: -11px;
+    opacity: 1;
+    z-index: 10;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: left;
+    border: 1px solid #131342;
+    background-color: white;
+}    
+
+.tw_combo_list_table {
+    text-align: left;
+    color: black;
+    border-collapse: collapse;
+    font-size:13px;
+    width:101%;
+}
+
+    .tw_combo_list_table tr {
+        background-color: #FFFFFF;
+    }
+
+.tw_combo_row_td {
+    transition: all ease 0.5s;
+    cursor: pointer;
+    height: 30px;
+    width: 325px;
+    padding-left: 10px;
+}
+
+    .tw_combo_row_td:hover {
+        background-color: #131342;
+        color: white;
+    }
+    
